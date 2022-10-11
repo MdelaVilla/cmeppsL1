@@ -14,6 +14,7 @@ class CalculadoraTest {
 
 	@BeforeAll
 	static void setUpBeforeClass() throws Exception {
+		//System.out.println("BeforeAll");
 	}
 
 	@AfterAll
@@ -24,6 +25,7 @@ class CalculadoraTest {
 	void setUp() throws Exception {
 		value1=3;
 		value2=5;
+		//System.out.println("BeforeEach");
 	}
 
 	@AfterEach
